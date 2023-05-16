@@ -18,3 +18,5 @@ services:
       - '8000:8000'
     depends_on:
       - db
+    volumes:
+      - /Users/hsiaozuyou/Desktop/2023May/review_django:/app
